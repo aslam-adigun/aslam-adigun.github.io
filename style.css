@@ -37,70 +37,14 @@ body {
     padding-bottom: 40px;
 }
 
-.socials-email {
-    background: url("./assets/social icons/default/Email.svg") no-repeat;
-    width: 24px;
-    height: 24px;
+.socials i {
+    color:#ffffffa3;
+    font-size: 24px;
     transition: 0.6s;
 }
 
-.socials-email:hover {
-    background: url("./assets/social icons/hover/Email.svg") no-repeat;
-}
-
-.socials-behance {
-    background: url("./assets/social icons/default/Behance.svg") no-repeat;
-    width: 24px;
-    height: 24px;
-    transition: 0.6s;
-}
-
-.socials-behance:hover {
-    background: url("./assets/social icons/hover/Behance.svg") no-repeat;
-}
-
-.socials-dribbble {
-    background: url("./assets/social icons/default/Dribbble.svg") no-repeat;
-    width: 24px;
-    height: 24px;
-    transition: 0.6s;
-}
-
-.socials-dribbble:hover {
-    background: url("./assets/social icons/hover/Dribbble.svg") no-repeat;
-}
-
-.socials-figma {
-    background: url("./assets/social icons/default/Figma.svg") no-repeat;
-    width: 24px;
-    height: 24px;
-    transition: 0.6s;
-}
-
-.socials-figma:hover {
-    background: url("./assets/social icons/hover/Figma.svg") no-repeat;
-}
-
-.socials-linkedin {
-    background: url("./assets/social icons/default/Linkedin.svg") no-repeat;
-    width: 24px;
-    height: 24px;
-    transition: 0.6s;
-}
-
-.socials-linkedin:hover {
-    background: url("./assets/social icons/hover/Linkedin.svg") no-repeat;
-}
-
-.socials-github {
-    background: url("./assets/social icons/default/Github.svg") no-repeat;
-    width: 24px;
-    height: 24px;
-    transition: 0.6s;
-}
-
-.socials-github:hover {
-    background: url("./assets/social icons/hover/Github.svg") no-repeat;
+.socials i:hover {
+    color: #ffa700;
 }
 
 .navbar {
