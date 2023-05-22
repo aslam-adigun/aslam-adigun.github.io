@@ -1,2 +1,2 @@
-# aslam-adigun.github.io
-GitHub Pages user site
+# d-aslam
+The second iteration of my portfolio website

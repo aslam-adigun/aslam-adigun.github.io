@@ -1,0 +1,163 @@
+body {
+    background-image: url("./assets/background 1366x768.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.logo {
+    position: absolute;
+    width: 101.02px;
+    height: 40px;
+    left: 40px;
+    top: 40px;
+}
+
+.left-panel .rectangle {
+    position: absolute;
+    width: 2px;
+    height: 304px;
+    left: 51px;
+    top: 120px;
+    background: #ffffffa3;
+    border-radius: 50px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 24px;
+    height: 264px;
+    left: 40px;
+    top: 464px;
+    padding-bottom: 40px;
+}
+
+.socials-email {
+    background: url("./assets/social icons/default/Email.svg") no-repeat;
+    width: 24px;
+    height: 24px;
+    transition: 0.6s;
+}
+
+.socials-email:hover {
+    background: url("./assets/social icons/hover/Email.svg") no-repeat;
+}
+
+.socials-behance {
+    background: url("./assets/social icons/default/Behance.svg") no-repeat;
+    width: 24px;
+    height: 24px;
+    transition: 0.6s;
+}
+
+.socials-behance:hover {
+    background: url("./assets/social icons/hover/Behance.svg") no-repeat;
+}
+
+.socials-dribbble {
+    background: url("./assets/social icons/default/Dribbble.svg") no-repeat;
+    width: 24px;
+    height: 24px;
+    transition: 0.6s;
+}
+
+.socials-dribbble:hover {
+    background: url("./assets/social icons/hover/Dribbble.svg") no-repeat;
+}
+
+.socials-figma {
+    background: url("./assets/social icons/default/Figma.svg") no-repeat;
+    width: 24px;
+    height: 24px;
+    transition: 0.6s;
+}
+
+.socials-figma:hover {
+    background: url("./assets/social icons/hover/Figma.svg") no-repeat;
+}
+
+.socials-linkedin {
+    background: url("./assets/social icons/default/Linkedin.svg") no-repeat;
+    width: 24px;
+    height: 24px;
+    transition: 0.6s;
+}
+
+.socials-linkedin:hover {
+    background: url("./assets/social icons/hover/Linkedin.svg") no-repeat;
+}
+
+.socials-github {
+    background: url("./assets/social icons/default/Github.svg") no-repeat;
+    width: 24px;
+    height: 24px;
+    transition: 0.6s;
+}
+
+.socials-github:hover {
+    background: url("./assets/social icons/hover/Github.svg") no-repeat;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    width: 498px;
+    height: 40px;
+    left: 828px;
+    top: 40px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffffa3;
+    font-family: 'Anek Latin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 136.5%;
+    transition: 0.6s;
+}
+
+.navbar a:hover {
+    color: #ffa700;
+    opacity: 100%;
+    font-weight: 600;
+}
+
+.navbar a:active {
+    color: #ffa700;
+    opacity: 100%;
+    font-weight: 600;
+}
+
+.resume-bgrd {
+    display: grid;
+    place-items: center;
+    width: 105px;
+    height: 40px;
+    border: 1px solid #ffffff66;
+    border-radius: 50px;
+    transition: 0.6s;
+}
+
+.resume-bgrd:hover {
+    background-color: #ffffff52;
+    width: 105px;
+    height: 40px;
+    border: 1px solid #ffffff00;
+}
+
+.resume-bgrd .resume {
+    padding: 9px 9px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
