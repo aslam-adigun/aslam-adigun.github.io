@@ -1,7 +1,7 @@
 body {
     background-image: url("./assets/background 1366x768.png");
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: auto;
 }
 
 .logo {
@@ -56,7 +56,8 @@ body {
     position: absolute;
     width: 498px;
     height: 40px;
-    left: 828px;
+    /* left: 828px; */
+    right: 4vw;
     top: 40px;
 }
 
