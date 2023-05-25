@@ -3,8 +3,13 @@
 }
 
 @keyframes grow {
-    0% { transform: scale(.6); }
-    100% { transform: scale(1); }
+    0% {
+        transform: scale(.6);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 html {
@@ -50,7 +55,7 @@ html {
 }
 
 .socials i {
-    color:#ffffffa3;
+    color: #ffffffa3;
     font-size: 3vh;
     transition: 0.6s;
 }
@@ -200,20 +205,20 @@ html {
 }
 
 .center-content .tools img {
-    color:#ffffffa3;
+    color: #ffffffa3;
     width: 3vh;
     height: 3vh;
     transition: 0.6s;
 }
 
-.container{
+.container {
     /* border:1px solid black; */
-    width:fit-content;
-    position:relative;
+    width: fit-content;
+    position: relative;
 }
 
 .text {
-    display: none;    
+    display: none;
     font-family: 'Anek Latin';
     font-style: normal;
     font-weight: 500;
