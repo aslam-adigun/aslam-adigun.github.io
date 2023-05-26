@@ -142,19 +142,20 @@ html {
 }
 
 .center-content h1 {
+    position: absolute;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 9.375vh;
     line-height: 0;
-    padding-top: 2vh;
+    margin-top: 5vh;
     color: #FFFFFF;
     text-shadow: 0vh 0.52vh 3.125vh #000000;
 }
 
 .center-content h2 {
     width: 28vw;
-    padding-top: 2.08vh;
+    padding-top: 13vh;
     font-family: 'Anek Latin';
     font-style: normal;
     font-weight: 400;
@@ -250,7 +251,7 @@ html {
     position: absolute;
     width: 1.5vw;
     height: 0.5vw;
-    top: 74vh;
+    top: 72vh;
     left: 32vw;
     background-color: #ffa700;
     border-radius: 50px;
